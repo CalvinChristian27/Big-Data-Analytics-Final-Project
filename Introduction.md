@@ -3,7 +3,7 @@
 ## Daftar Isi
 - [Introduction](#introduction)
 - [Dataset](#dataset)
-- [Analisis Data](#analisis data)
+- [Analisis Data](#analisis)
 - [Penutupan](#penutupan)
 
 ### Introduction
