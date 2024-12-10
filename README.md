@@ -13,12 +13,12 @@ Big Data Analytics Final Project adalah tugas akhir yang diberikan dari mata kul
 
 ## Dataset
 Data yang kami ambil adalah data dari UMKM restoran *Chinese Food* yang bernama **"Sari Rasa Araya"** yang terletak di Ruko Puri Niaga Araya No. A-9. Data yang kami ambil adalah **data penjualan setiap hari dari 21 makanan yang ada di restoran tersebut, kami mengambil data mulai dari tanggal **1 November 2024 hingga 6 Desember 2024 (Sekarang)**. Isi dari data yang kami buat adalah:
-• **Nama Makanan**: Nama dari makanan yang dijual
-• **Kategori**: Jenis kategori dari makanan yang dijual
-• **Harga**: Harga dari tiap makanan yang dijual
-• **Penjualan per Hari**: Jumlah tiap makanan yang terjual setiap hari nya
-• **Rata-Rata Penjualan per Bulan**: Rata-rata tiap makanan yang terjual tiap bulan
-• **Total Penjualan per Hari**: Jumlah penghasilan yang didapatkan setiap hari nya, beserta rata-rata penghasilan yang didapatkan setiap bulan.
+- **Nama Makanan**: Nama dari makanan yang dijual
+- **Kategori**: Jenis kategori dari makanan yang dijual
+- **Harga**: Harga dari tiap makanan yang dijual
+- **Penjualan per Hari**: Jumlah tiap makanan yang terjual setiap hari nya
+- **Rata-Rata Penjualan per Bulan**: Rata-rata tiap makanan yang terjual tiap bulan
+- **Total Penjualan per Hari**: Jumlah penghasilan yang didapatkan setiap hari nya, beserta rata-rata penghasilan yang didapatkan setiap bulan.
 
 ## Analisis Data
 1. Bahasa Pemrograman: **Python**
