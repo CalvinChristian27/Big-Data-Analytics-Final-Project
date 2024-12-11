@@ -23,9 +23,36 @@ Data yang kami ambil adalah data dari UMKM restoran *Chinese Food* yang bernama 
 ## Analisis Data
 1. Bahasa Pemrograman: **Python**
 2. Framework: **Google Colab**
-3. Tahapan Analisis Data: **10 Penjualan Terbanyak, Preprocessing, dan 2 Model Algoritma**
+3. Tahapan Analisis Data: **Pembuatan Dataset, Preprocessing, dan Model Algoritma**
+4. Machine Learning yang Digunakan: **Naive Bayes, Support Vector Machine (SVM) K-Means, dan Clustering**
 
-Pemrograman yang di lakukan adalah **Menampilkan 10 Penjualan Terbanyak, Preprocessing (Pembersihan, Tokenisasi, dan Transformasi Data) dan 2 Model Algoritma untuk di bandingkan satu sama lain**. Tahapan pertama yang dilakukan adalah **menghitung rata-rata penjualan untuk menentukan 10 makanan yang terlaris**, yang kemudian akan di visualisasikan dalam bentuk grafik untuk mempermudah dalam membaca data tersebut, grafik yang ditampilkan berupa 10 makanan yang terlaris dan jumlah penjualan untuk setiap makanan tersebut. Kemudian akan dilakukan **Preprocessing data untuk melakukan pelatihan pada 2 Model Algortima**, Machine Learning yang di pakai untuk project ini adalah **Naive Bayes dan Support Vecotr Machine (SVM)**. Pelatihan Model Algortima ini dilakukan untuk melakukan analisis sentimen dan membandingkan kedua Model Algoritma tersebut. Hasil analisis itu kemudian akan di visualisasikan dalam bentuk tabel untuk mempermudah dalam membaca data.
+Dilakukannya Preprocessing berupa **pembersihan, tokenisasi, dan transformasi data** agar dataset dapat lebih mudah untuk di analisis. Setelah melakukan pembersihan data, kami melakukan perhitungan untuk menghitung **rata-rata penjualan per bulan nya untuk tiap kategori makanan yang tersedia**, hasil rata-rata tersebut juga di visualisasikan dalam bentuk grafik.
+
+![image](https://github.com/user-attachments/assets/221d4e97-ae30-4fa7-a4af-210f8a29ad6d)
+
+Kami juga melakukan perhitungan **rata-rata penjualan makanan tiap bulan dan menentukan 10 makanan dari 21 makanan yang popular dan sering dibeli oleh pelanggan**.
+
+![image](https://github.com/user-attachments/assets/aaf7237a-8b9b-45fb-88f7-1058bb7b195b)
+
+Kemudian dilakukannya pelatihan pada _Machine Learning Naive Bayes_ untuk memprediksi tren dari makanan yang ada di restoran tersebut. Selain itu kami juga menggunakan _Support Vecotr Machine (SVM)_ untuk mengklasifikasikan pelanggan atau transaksi ke dalam kategori yang relevan, seperti prediksi loyalitas pelanggan atau deteksi penipuan. Hasil dari data tersebut kemudian di visualisasikan.
+
+![image](https://github.com/user-attachments/assets/adf78e00-7bc8-498e-b3d2-4db69c9e3f34)
+
+![image](https://github.com/user-attachments/assets/7daf03db-8854-4f86-b52f-0eb064b6f8ba)
+
+Kami juga melakukan pelatihan pada _Machine Learning K-Means_ dan _Clustering_ untuk mengelompokkan pelanggan berdasarkan preferensi atau perilaku pembelian, sehingga dapat meningkatkan strategi pemasaran dan personalisasi layanan. Hasil dari pelatihan itu telah di olah dan visualisasikan ke dalam grafik. 
+
+![image](https://github.com/user-attachments/assets/6c1c37ac-f0dd-49c3-b16c-98bca7b67a39)
+
+![image](https://github.com/user-attachments/assets/ca94e2bc-2be6-4558-ac74-b25554d43dd6)
+
+Hasil dari _Machine Learning_ tersebut kemudian digunakan untuk **menampilkan dataframe yang berisikan _Distribution_, _Categorical Distributions_, _2-D Distributions_, _Time Series_, dan _Value_** dari dataset penjualan pada restoran itu. Analisis data ini dibuat untuk menampilkan data-data per bulannya, yang kemudian akan divisualisasikan dalam bentuk grafik
+
+![image](https://github.com/user-attachments/assets/3e3c8c33-4b66-4e88-8ae0-b92a57affef4)
+![image](https://github.com/user-attachments/assets/2af000cf-8667-449e-8bbf-e8a20b29dd47)
+![image](https://github.com/user-attachments/assets/b8443079-8cfa-4cb1-9cf3-62e971111ff8)
+![image](https://github.com/user-attachments/assets/9c4b5779-d179-4ad8-b80a-e012b291623f)
+![image](https://github.com/user-attachments/assets/02d2682b-e279-4c81-908a-9ccf01bd62cb)
 
 ## Penutupan
 Tujuan dari analisis data ini adalah untuk **memahami persepsi pelanggan** terhadap produk, layanan, atau merek melalui ulasan, komentar, atau masukan mereka. Dengan cara mengetahui apakah sentimen pelanggan cenderung positif, negatif, atau netral, agar dapat **mengidentifikasi kekuatan dan kelemahan serta memperbaiki strategi pemasaran**. Hasil analisis ini **membantu meningkatkan pengalaman pelanggan, membangun loyalitas, dan mendorong penjualan**.
